@@ -80,8 +80,6 @@
     <Content Include="build\**" />
     <Content Include="src\components\discount-widget\discount-widget.html" />
     <Content Include="src\components\discount-widget\discount-widget.js" />
-    <Content Include="src\components\like-widget\like-widget.html" />
-    <Content Include="src\components\like-widget\like-widget.js" />
     <Content Include="src\components\simple-name\simple-name.html" />
     <Content Include="src\components\simple-name\simple-name.js" />
     <Content Include="src\index.html" />

@@ -35,6 +35,5 @@ D:\development\Learning\knockout_browserify\bin\KnockoutBrowserifyDemo.dll
 D:\development\Learning\knockout_browserify\bin\KnockoutBrowserifyDemo.pdb
 D:\development\Learning\knockout_browserify\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\development\Learning\knockout_browserify\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\development\Learning\knockout_browserify\obj\Debug\KnockoutBrowserifyDemo.csprojResolveAssemblyReference.cache
 D:\development\Learning\knockout_browserify\obj\Debug\KnockoutBrowserifyDemo.dll
 D:\development\Learning\knockout_browserify\obj\Debug\KnockoutBrowserifyDemo.pdb

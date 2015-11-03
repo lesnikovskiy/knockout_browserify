@@ -1,0 +1,21 @@
+{
+  "name": "KnockoutBrowserifyDemo",
+  "version": "0.0.0",
+  "browserify": {
+    "transform": [
+      "browserify-global-shim"
+    ]
+  },
+  "browserify-global-shim": {
+    "jQuery": "$",
+    "knockout": "ko"
+  },
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^4.2.1",
+    "browserify-global-shim": "^1.0.0",
+    "gulp": "^3.9.0",
+    "stringify": "^2.2.0",
+    "vinyl-source-stream": "^0.1.1"
+  }
+}

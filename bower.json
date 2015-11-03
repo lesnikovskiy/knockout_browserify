@@ -1,0 +1,23 @@
+{
+  "name": "knockout_browserify_demo",
+  "description": "Knockout+browserify demo",
+  "main": "gulpfile.js",
+  "authors": [
+    "Ruslan Lesnikovskiy"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/lesnikovskiy/knockout_browserify",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "knockout": "~3.3.0"
+  }
+}

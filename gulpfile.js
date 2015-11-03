@@ -20,9 +20,9 @@ gulp.task("browserify", function () {
 			// Use vinyl-source-stream to make the
 			// stream gulp compatible. Specifiy the
 			// desired output filename here.
-			.pipe(source("app.js"))
+			.pipe(source("bundle.js"))
 			// Specify the output destination
-			.pipe(gulp.dest("./build/"));
+			.pipe(gulp.dest("./src"));
 	};
 
 	return bundle();

@@ -1,4 +1,4 @@
-﻿/// <binding BeforeBuild='default' />
+﻿/// <binding />
 var gulp = require("gulp"),
 	browserify = require("browserify"),
 	stringify = require("stringify"),
@@ -11,6 +11,8 @@ gulp.task("browserify", function () {
 
 	var bundler = bundleMethod({
 		// Specify the entry point of your app
+		cache: {},
+		packageCache: {},
 		entries: ["./src/app.js"]
 	});
 

@@ -2,4 +2,4 @@
 
 ko.components.register("discount-widget", require("./components/discount-widget/discount-widget.js"));
 
-ko.applyBindings({ userName: ko.observable() });
+ko.applyBindings();

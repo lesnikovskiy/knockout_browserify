@@ -37,3 +37,4 @@ D:\development\Learning\knockout_browserify\bin\Microsoft.CodeDom.Providers.DotN
 D:\development\Learning\knockout_browserify\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\development\Learning\knockout_browserify\obj\Debug\KnockoutBrowserifyDemo.dll
 D:\development\Learning\knockout_browserify\obj\Debug\KnockoutBrowserifyDemo.pdb
+D:\development\Learning\knockout_browserify\obj\Debug\KnockoutBrowserifyDemo.csprojResolveAssemblyReference.cache

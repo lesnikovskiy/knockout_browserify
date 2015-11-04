@@ -7,7 +7,7 @@
 		]
 	},
 	"browserify-global-shim": {
-		"jQuery": "$",
+		"jquery": "$",
 		"knockout": "ko"
 	},
 	"devDependencies": {

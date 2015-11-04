@@ -1,8 +1,10 @@
-﻿var gulp = require("gulp"),
+﻿/// <binding BeforeBuild='default' />
+var gulp = require("gulp"),
 	browserify = require("browserify"),
 	stringify = require("stringify"),
 	babelify = require("babelify"),
 	source = require("vinyl-source-stream");
+
 
 gulp.task("browserify", function () {
 	var bundleMethod = browserify;//global.isWatching ? watchify : browserify;

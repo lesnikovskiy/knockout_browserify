@@ -5,7 +5,7 @@ var gulp = require("gulp"),
 	babelify = require("babelify"),
 	source = require("vinyl-source-stream");
 
-
+// this is an outdated command without es6 support
 gulp.task("browserify", function () {
 	var bundleMethod = browserify;//global.isWatching ? watchify : browserify;
 
@@ -32,4 +32,17 @@ gulp.task("browserify", function () {
 	return bundle();
 });
 
-gulp.task("default", ["browserify"]);
+gulp.task("build", function() {
+	return browserify({ entries: "./src/app.js" })
+		.transform(stringify([".html"]))
+		.transform("babelify", { presets: ["es2015"] })
+		.bundle()
+		.pipe(source("bundle.js"))
+		.pipe(gulp.dest("./src"));
+});
+
+gulp.task("watch", ["watch"], function() {
+	gulp.watch("*.js", ["build"]);
+});
+
+gulp.task("default", ["watch"]);
